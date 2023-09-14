@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb1e1bd1.chunk.css",
+    "main.js": "/static/js/main.82544159.chunk.js",
+    "main.js.map": "/static/js/main.82544159.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4dd73008.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4dd73008.js.map",
+    "static/js/2.696a8c17.chunk.js": "/static/js/2.696a8c17.chunk.js",
+    "static/js/2.696a8c17.chunk.js.map": "/static/js/2.696a8c17.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cb1e1bd1.chunk.css.map": "/static/css/main.cb1e1bd1.chunk.css.map",
+    "static/js/2.696a8c17.chunk.js.LICENSE.txt": "/static/js/2.696a8c17.chunk.js.LICENSE.txt",
+    "static/media/HeaderContactImage.003a5add.jpg": "/static/media/HeaderContactImage.003a5add.jpg",
+    "static/media/HeaderImageDetail.b3bf1888.png": "/static/media/HeaderImageDetail.b3bf1888.png",
+    "static/media/characterb_art.4d3d4254.png": "/static/media/characterb_art.4d3d4254.png",
+    "static/media/hero-img.c225d790.png": "/static/media/hero-img.c225d790.png",
+    "static/media/Landing.css": "/static/media/pokemon.e19e30f8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dd73008.js",
+    "static/js/2.696a8c17.chunk.js",
+    "static/css/main.cb1e1bd1.chunk.css",
+    "static/js/main.82544159.chunk.js"
+  ]
+}

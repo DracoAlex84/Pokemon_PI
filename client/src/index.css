@@ -133,7 +133,15 @@ section{
 
 /* BUTTONS GENERAL STYLE */
 
-.btn{
+
+
+.btn__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+/* .btn{
     display: grid;
     grid-template-columns: 10rem;
     grid-template-rows: 2rem;
@@ -146,7 +154,25 @@ section{
     background: var(--color-primary);
     border-radius: 0.3rem;
     transition: var(--transition);
+} */
+
+.btn{
+  display: inline-block; 
+  text-align: center;
+  align-items: center;
+  color: var(--color-gray-100);
+  margin: 0.3rem;
+  padding: 0.3rem;
+  background: var(--color-primary);
+  border-radius: 0.3rem;
+  transition: var(--transition);
 }
+
+.btn.all {
+  padding: 0.9rem 3rem; /* Adjust as needed */
+  font-size: 0.9rem; /* Adjust as needed */
+}
+
 
 .btn:hover{
   background: var(--color-secondary);
@@ -188,14 +214,21 @@ section{
   border: 2px solid var(--color-gray-100);
 }
 
-.pagination{
+.pagination__container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+
+.pagination-btn{
   position: relative;
   cursor: pointer;
-  width: 100%;
-  padding: 8px 8px 8px;
-  display: flex;
+  width: auto;
+  padding: 8px;
   font-size: 1.125rem;
   background: var(--color-primary);
+  margin: 0 5px;
 }
 
 .pagination:hover{
@@ -203,6 +236,9 @@ section{
   background: var(--color-secondary);
 }
 
+.active.pagination-btn {
+    color: yellow;
+}
 
 /* FOOTER */
 footer{

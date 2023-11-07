@@ -24,7 +24,7 @@ function Buttons({
 
 
   return (
-    <div className='buttons__container'>
+    <div className='btn__container'>
       <div className='btn sort'>
         <select className='btn selectByName' onChange={handleOnSortByName} name='orderName'>
           <option selected={selected} value='order'>
@@ -43,7 +43,7 @@ function Buttons({
       </div>
 
       <div>
-        <button className='btn btn__all' onClick={handleOnClickAll}>
+        <button className='btn all' onClick={handleOnClickAll}>
             ALL POKEMONS
         </button>
       </div>

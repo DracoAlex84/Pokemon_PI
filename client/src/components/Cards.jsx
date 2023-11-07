@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Card } from "../components/Card";
 
 
-export const Cards = ({ isLoading, currentPokemons, handleDeletePokemon  }) => {
+export const Cards = ({ isLoading, currentPokemons  }) => {
   return (
     <div className='cards_main'>
       {isLoading ? (
@@ -34,9 +34,7 @@ export const Cards = ({ isLoading, currentPokemons, handleDeletePokemon  }) => {
                     image={e.image}
                     types={e.types}
                   />
-                  <button onClick={() => handleDeletePokemon(e.id)} className='btn delete'>
-                      DELETE
-                  </button>
+              
                 </NavLink>
               );
             })

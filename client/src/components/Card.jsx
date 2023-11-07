@@ -1,4 +1,4 @@
-export const Card = ({ id, name, number, image, types, handleToggledSelect, selected }) => {
+export const Card = ({ id, name, number, image, types }) => {
 
 
   const typeColors = {
